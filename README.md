@@ -4,6 +4,16 @@ A React-native module it can modify an image by simply.
 
 Update from https://github.com/LeeKyoungIl/react-native-image-converter
 
+### Change file https://github.com/LeeKyoungIl/react-native-image-converter/~/build.gradle
+
+* Change SDK Version
+
+![image](https://github.com/user-attachments/assets/dd0a0d6b-e363-4353-b860-93491e762083)
+  
+* Change Compile TO Implement
+
+![image](https://github.com/user-attachments/assets/e2f2b3a5-4b9c-4b16-9e82-ca2e15f608cc)
+
 ### supported features.
  - resize
  - quality
