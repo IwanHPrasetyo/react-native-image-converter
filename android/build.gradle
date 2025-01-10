@@ -1,0 +1,43 @@
+
+buildscript {
+    repositories {
+        jcenter()
+        google()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.4.1'
+    }
+}
+
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30         //sesuaikan dengan base app nya
+    buildToolsVersion "30.0.3" //sesuaikan dengan base app nya
+
+    defaultConfig {
+        minSdkVersion 24         //sesuaikan dengan base app nya
+        targetSdkVersion 30   //sesuaikan dengan base app nya
+        versionCode 1
+        versionName "1.0"
+    }
+    lintOptions {
+        abortOnError false
+    }
+}
+
+repositories {
+    mavenCentral()
+    google()
+}
+
+dependencies {
+    // compile 'com.facebook.react:react-native:+' //Code Lama
+    // compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9' //Code Lama
+    implementation 'com.facebook.react:react-native:+' //Code Lama
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.9' //Code Baru
+
+
+}
+  
